@@ -66,7 +66,7 @@ ipam:
   ports:
    - "80:80"
   links:
-   - phpipam-mysql
+   - phpipam-mysql:mysql
 phpipam-mysql:
   image: mysql:5.6
   environment: 
